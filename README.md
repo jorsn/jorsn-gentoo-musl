@@ -1,7 +1,7 @@
 jorsn-musl
 ===========
 
-My own [musl] overlay for [gentoo] that extends the [official one][musl-overlay].
+My own [musl] overlay for [gentoo] in addition to the [official one][musl-overlay].
 
 Here I place ebuilds that I use but that aren't accepted by gentoo
 package maintainers. Use at Your own risk – i cannot test ebuilds against all use

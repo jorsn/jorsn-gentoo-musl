@@ -1,7 +1,7 @@
 <repositories encoding="unicode" version="1.1">
   <repo priority="51" quality="experimental">
     <name>jorsn-musl</name>
-    <description>My own musl overlay on top of the official one.</description>
+    <description>My own musl overlay in addition to the official one.</description>
     <homepage>https://github.com/jorsn/jorsn-gentoo-musl</homepage>
     <owner>
       <email>jo.rosenberger@gmx-topmail.de</email>
