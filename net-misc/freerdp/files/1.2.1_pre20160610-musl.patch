@@ -1,0 +1,11 @@
+--- a/winpr/libwinpr/comm/comm_serial_sys.c
++++ b/winpr/libwinpr/comm/comm_serial_sys.c
+@@ -42,6 +42,9 @@
+ #define TTY_THRESHOLD_UNTHROTTLE 	128
+ #define N_TTY_BUF_SIZE			4096
+ 
++#ifndef CMSPAR
++#define CMSPAR   010000000000
++#endif
+ 
+ #define _BAUD_TABLE_END	0010020	/* __MAX_BAUD + 1 */
