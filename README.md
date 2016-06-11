@@ -27,7 +27,7 @@ Put a file like this in `/etc/portage/repos.conf/jorsn-musl.conf`:
 
 Then, sync your portage tree:
 
-	$ emaint -r jorsn-musl
+	$ emaint sync -r jorsn-musl
 
 
 ### layman
@@ -35,7 +35,7 @@ Then, sync your portage tree:
 Then, add the overlay to layman and sync:
 
 	$ layman -o https://raw.githubusercontent.com/jorsn/jorsn-gentoo-musl/master/jorsn-musl.xml -f -a jorsn-musl
-	$ emaint -r jorsn-musl
+	$ emaint sync -r jorsn-musl
 
 
 
