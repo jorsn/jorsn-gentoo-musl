@@ -21,7 +21,7 @@ DESCRIPTION="Free implementation of the Remote Desktop Protocol"
 HOMEPAGE="http://www.freerdp.com/"
 
 LICENSE="Apache-2.0"
-SLOT="0/1.2"
+SLOT="0/2"
 IUSE="alsa +client cpu_flags_x86_sse2 cups debug doc ffmpeg gstreamer jpeg libressl
 	neon pulseaudio server smartcard systemd test usb wayland X xinerama xv elibc_musl"
 
@@ -85,7 +85,7 @@ DOCS=( README )
 
 if use elibc_musl; then
 	CFLAGS="${CFLAGS} -idirafter /usr/include/bsd"
-	PATCHES=( "${FILESDIR}/1.2.1_pre20160610-musl.patch" )
+	PATCHES=( "${FILESDIR}/2.0.0_pre20160610-musl.patch" )
 fi
 
 src_configure() {
