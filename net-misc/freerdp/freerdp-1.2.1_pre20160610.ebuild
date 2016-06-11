@@ -22,7 +22,8 @@ HOMEPAGE="http://www.freerdp.com/"
 
 LICENSE="Apache-2.0"
 SLOT="0/1.2"
-IUSE="alsa +client cpu_flags_x86_sse2 cups debug doc ffmpeg gstreamer jpeg libressl neon pulseaudio server smartcard systemd test usb wayland X xinerama xv"
+IUSE="alsa +client cpu_flags_x86_sse2 cups debug doc ffmpeg gstreamer jpeg libressl
+	neon pulseaudio server smartcard systemd test usb wayland X xinerama xv elibc_musl"
 
 RDEPEND="
 	elibc_musl? ( dev-libs/libbsd )
