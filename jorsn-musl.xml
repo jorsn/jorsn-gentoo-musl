@@ -4,7 +4,7 @@
     <description>My own musl overlay in addition to the official one.</description>
     <homepage>https://github.com/jorsn/jorsn-gentoo-musl</homepage>
     <owner>
-      <email>jo.rosenberger@gmx-topmail.de</email>
+      <email>johannes.rosenberger@jorsn.eu</email>
       <name>jorsn</name>
     </owner>
     <source type="git">https://github.com/jorsn/jorsn-gentoo-musl.git</source>
