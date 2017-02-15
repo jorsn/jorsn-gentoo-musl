@@ -1,0 +1,12 @@
+diff --git a/parsetime.h b/parsetime.h
+--- a/parsetime.h
++++ b/parsetime.h
+@@ -21,3 +21,8 @@ time_t parsetime(time_t currtime, int argc, char **argv);
+ 
+ extern char *last_token;
+ extern char **my_argv;
++
++#if !defined(__isleap)
++#  define __isleap(year) \
++   ((year) % 4 == 0 && ((year) % 100 != 0 || (year) % 400 == 0))
++#endif
