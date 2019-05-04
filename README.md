@@ -7,6 +7,8 @@ Here I place ebuilds that I use but that aren't accepted by gentoo
 package maintainers. Use at Your own risk – i cannot test ebuilds against all use
 flag combinations or architectures.
 
+**DEPRECATION WARNING (2019-05-04): *As I have switched from Gentoo to NixOS, this is no longer maintained, and won't probably be in the near future.***
+
 
 Installation
 -------------
